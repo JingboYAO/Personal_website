@@ -45,6 +45,20 @@ a {
   align-items: center;
 }
 
+.logo-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.nav-logo {
+  height: 50px; /* Increased from 40px */
+  width: auto;
+  object-fit: contain;
+  /* Make the logo pure white to match the text */
+  filter: brightness(0) invert(1); 
+}
+
 .site-title {
   font-family: var(--font-family-serif);
   font-weight: var(--font-weight-bold);
