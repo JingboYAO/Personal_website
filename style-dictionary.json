@@ -1,0 +1,52 @@
+{
+  "color": {
+    "primary": { "value": "#003366" },
+    "secondary": { "value": "#666666" },
+    "background": { "value": "#ffffff" },
+    "text": {
+      "primary": { "value": "#333333" },
+      "secondary": { "value": "#666666" },
+      "link": { "value": "#0066cc" },
+      "link-hover": { "value": "#004499" }
+    },
+    "border": { "value": "#e0e0e0" }
+  },
+  "font": {
+    "family": {
+      "base": { "value": "'Lato', sans-serif" },
+      "heading": { "value": "'Merriweather', serif" }
+    },
+    "size": {
+      "base": { "value": "16px" },
+      "h1": { "value": "2.5rem" },
+      "h2": { "value": "2rem" },
+      "h3": { "value": "1.75rem" },
+      "small": { "value": "0.875rem" }
+    },
+    "weight": {
+      "regular": { "value": "400" },
+      "bold": { "value": "700" }
+    }
+  },
+  "spacing": {
+    "xs": { "value": "4px" },
+    "sm": { "value": "8px" },
+    "md": { "value": "16px" },
+    "lg": { "value": "24px" },
+    "xl": { "value": "32px" },
+    "xxl": { "value": "64px" }
+  },
+  "border": {
+    "radius": {
+      "sm": { "value": "4px" },
+      "md": { "value": "8px" }
+    }
+  },
+  "shadow": {
+    "sm": { "value": "0 1px 2px rgba(0,0,0,0.1)" },
+    "md": { "value": "0 4px 6px rgba(0,0,0,0.1)" }
+  },
+  "transition": {
+    "base": { "value": "all 0.3s ease" }
+  }
+}

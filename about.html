@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Jingbo YAO">
+  <title>About - Jingbo YAO</title>
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="profile__photo-container">
+          <picture>
+            <source srcset="./assets/images/personal_photo.webp" type="image/webp">
+            <img src="./assets/images/personal_photo.png" alt="Jingbo YAO" class="profile__photo">
+          </picture>
+        </div>
+        <h1 class="profile__name" id="profile-name"></h1>
+        <p class="profile__title" id="profile-title"></p>
+        <p class="profile__dept" id="profile-dept"></p>
+        <p class="profile__uni" id="profile-uni"></p>
+        
+        <nav class="nav">
+          <ul class="nav__list" id="nav-list"></ul>
+        </nav>
+        
+        <div class="social" id="social-list"></div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="about-content" class="section section--about">
+        <!-- About content injected here -->
+      </section>
+      
+      <footer class="footer">
+        <p class="footer__text">&copy; <span id="year"></span> Jingbo YAO. All rights reserved.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="./config.js"></script>
+  <script src="./assets/js/component-profile.js"></script>
+  <script src="./assets/js/component-nav.js"></script>
+  <script src="./assets/js/page-home.js"></script>
+  <script src="./assets/js/page-about.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

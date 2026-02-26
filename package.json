@@ -1,0 +1,33 @@
+{
+  "name": "jingbo-yao-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/build-tokens.js && vite",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "build": "node scripts/build-tokens.js && npm run optimize-images && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.html",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-imagemin": "^0.6.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "postcss-nesting": "^12.0.1",
+    "eslint": "^8.53.0",
+    "prettier": "^3.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^8.0.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

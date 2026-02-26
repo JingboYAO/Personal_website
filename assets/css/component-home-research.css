@@ -1,0 +1,39 @@
+/* Research Interests Styling */
+.research-interests-section {
+  margin-top: var(--spacing-xl);
+}
+
+.section-title {
+  font-family: var(--font-family-serif);
+  font-size: 1.5rem;
+  color: var(--color-primary); /* Dark Blue */
+  margin-bottom: var(--spacing-md);
+  font-weight: 700;
+}
+
+.research-themes {
+  margin-top: var(--spacing-md);
+}
+
+.research-themes__list {
+  list-style-type: disc;
+  padding-left: var(--spacing-lg);
+}
+
+.research-themes__item {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--color-text-main);
+}
+
+.theme-title {
+  font-weight: 700;
+  color: var(--color-text-main); /* Keep it dark like the text, maybe bold is enough */
+}
+
+/* Bold keywords in intro text */
+.intro__text strong {
+  font-weight: 700;
+  color: var(--color-text-main);
+}
