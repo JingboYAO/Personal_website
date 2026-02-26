@@ -1,15 +1,21 @@
 :root {
-  /* Default Theme (Academic/Light) */
-  --color-primary: #3b2e2a;
-  --color-primary-light: #5d4a44;
-  --color-accent: #1e88e5;
-  --color-accent-hover: #1565c0;
-  --color-text-main: #333333;
-  --color-text-light: #666666;
+  /* Default Theme (Academic/Light) - Deepest Earth Palette */
+  --color-primary: #3E2723;       /* Darkest Espresso Brown (was #5D4037) */
+  --color-primary-light: #4E342E; /* Dark Chocolate (was #795548) */
+  --color-accent: #210F0B;        /* Near Black-Brown for max contrast (was #3E2723) */
+  --color-accent-hover: #1A0D0A;  /* Deepest Brown for hover (was #2D1B18) */
+  --color-text-main: #140F0B;     /* Rich Black-Brown for main text */
+  --color-text-light: #4E342E;    /* Dark Earth for secondary text */
   --color-white: #ffffff;
   --color-background: #ffffff;
-  --color-border: #e0e0e0;
-  --color-bg-secondary: #f8f9fa;
+  --color-border: #e5e7eb;        /* Light Grey border */
+  --color-bg-secondary: #f9fafb;  /* Very Light Grey background */
+  
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-disabled: #9ca3af;
   
   /* Typography */
   --font-family-serif: 'Merriweather', serif;
@@ -53,16 +59,22 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-  --color-primary: #e0e0e0;
-  --color-primary-light: #cccccc;
-  --color-accent: #64b5f6;
-  --color-accent-hover: #42a5f5;
-  --color-text-main: #e0e0e0;
-  --color-text-light: #aaaaaa;
-  --color-white: #121212; /* This is confusingly named but used for backgrounds */
-  --color-background: #121212;
-  --color-border: #333333;
-  --color-bg-secondary: #1e1e1e;
-  --shadow-sm: 0 1px 2px rgba(255,255,255,0.05);
-  --shadow-md: 0 4px 6px rgba(255,255,255,0.05);
+  --color-primary: #1e3a8a;       /* Deep Blue for dark mode headers */
+  --color-primary-light: #3b82f6; /* Bright Blue for accents */
+  --color-accent: #60a5fa;        /* Lighter Blue for visibility on dark */
+  --color-accent-hover: #3b82f6;
+  --color-text-main: #f3f4f6;     /* Off-white for main text */
+  --color-text-light: #d1d5db;    /* Light Grey for secondary text */
+  --color-white: #111827;         /* Very Dark Blue-Grey background */
+  --color-background: #111827;
+  --color-border: #374151;        /* Dark Grey border */
+  --color-bg-secondary: #1f2937;  /* Dark Blue-Grey secondary bg */
+  
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-error: #f87171;
+  --color-disabled: #6b7280;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
 }

@@ -18,9 +18,9 @@ window.PageResearch = {
                 <div class="paper-details">
                   <button class="toggle-btn" onclick="const summary = this.nextElementSibling; summary.classList.toggle('hidden'); this.textContent = summary.classList.contains('hidden') ? 'Show Summary' : 'Hide Summary'">Show Summary</button>
                   <div class="paper-summary hidden">
-                    <p><strong>Summary:</strong> ${paper.summary}</p>
-                    ${paper.presentation ? `<p><strong>Presentation:</strong> ${paper.presentation}</p>` : ''}
-                    ${paper.award ? `<p><strong>Award:</strong> ${paper.award}</p>` : ''}
+                    <p class="summary-block"><strong>Summary:</strong> ${paper.summary}</p>
+                    ${paper.presentation ? `<p class="summary-block"><strong>Presentation:</strong> ${paper.presentation}</p>` : ''}
+                    ${paper.award ? `<p class="summary-block"><strong>Award:</strong> ${paper.award}</p>` : ''}
                   </div>
                 </div>
               </li>

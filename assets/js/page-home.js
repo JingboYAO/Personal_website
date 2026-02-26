@@ -5,6 +5,19 @@ window.PageHome = {
     if (heroSection) {
       // Use direct style injection for background image
       heroSection.style.backgroundImage = `url('./assets/images/background.jpg')`;
+
+      // Inject Tagline if it exists
+      if (window.CONFIG && window.CONFIG.profile && window.CONFIG.profile.tagline) {
+        const tagline = document.createElement('p');
+        tagline.className = 'hero-tagline';
+        tagline.textContent = window.CONFIG.profile.tagline;
+        
+        // Find the hero overlay text container
+        const heroOverlay = heroSection.querySelector('.hero-overlay-text');
+        if (heroOverlay) {
+          heroOverlay.appendChild(tagline);
+        }
+      }
     }
 
     // 2. Render Main Content (About Me + Research Interests)

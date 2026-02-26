@@ -12,6 +12,7 @@ window.CONFIG = {
     department: "Department of Economics, Business School",
     university: "Hong Kong University of Science and Technology",
     email: "jyaoam@connect.ust.hk",
+    tagline: "Despite the forecast, live like it’s spring -- Lilly Pulitzer", // Added tagline
     cvLink: "https://www.dropbox.com/scl/fi/21nyttqzdgv66gcy6xdvl/CV_JingboYAO_20251120.pdf?rlkey=5l8lwby7i8ux75gd9iekohjnr&e=1&st=hv4dbjpl&dl=0",
     photo: "assets/images/personal_photo.png",
     social: [

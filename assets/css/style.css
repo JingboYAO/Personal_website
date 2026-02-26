@@ -122,6 +122,17 @@ a {
   font-weight: 300;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   opacity: 0.9;
+  margin-bottom: 40px; /* Space for the tagline below */
+}
+
+.hero-tagline {
+  font-family: var(--font-family-serif);
+  font-size: 1.1rem; /* Smaller than title (1.5rem) */
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Text shadow for readability */
+  margin-top: 0; /* Positioned relative to the title's margin-bottom */
 }
 
 /* Main Container Layout */
@@ -159,7 +170,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center; /* Ensures head is not cropped at the top */
+  object-position: center 20%; /* Moved image up slightly to show more top/head */
 }
 
 /* Content Area */
@@ -255,6 +266,14 @@ a {
   font-size: 0.95rem;
   line-height: 1.6;
   border-left: 3px solid var(--color-primary-light);
+}
+
+.summary-block {
+  margin-bottom: 12px;
+}
+
+.summary-block:last-child {
+  margin-bottom: 0;
 }
 
 .hidden {
@@ -412,6 +431,11 @@ a {
   .hero-overlay-text {
     align-items: center;
     text-align: center;
+  }
+
+  .hero-tagline {
+    font-size: 1rem; /* Adjust for mobile */
+    margin-bottom: 20px; /* Space below tagline on mobile */
   }
   
   .action-buttons {
