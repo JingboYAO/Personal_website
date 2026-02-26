@@ -280,6 +280,7 @@ a {
   font-size: 0.95rem;
   line-height: 1.6;
   border-left: 3px solid var(--color-primary-light);
+  text-align: justify; /* Justify text in paper summaries */
 }
 
 .summary-block {
@@ -324,6 +325,7 @@ a {
   margin-bottom: var(--spacing-lg);
   color: var(--color-text-main);
   line-height: 1.8;
+  text-align: justify; /* Justify text for clean edges on both sides */
 }
 
 /* Buttons */
@@ -421,7 +423,7 @@ a {
   /* Navigation Bar - Mobile */
   .nav-container {
     flex-direction: column;
-    padding: var(--spacing-sm);
+    padding: var(--spacing-xs) var(--spacing-sm); /* Reduce vertical padding */
     height: auto;
   }
 
@@ -431,20 +433,32 @@ a {
   }
 
   .logo-title-wrapper {
-    margin-bottom: var(--spacing-sm);
-    justify-content: center;
+    margin-bottom: var(--spacing-xs); /* Reduce space between logo and nav links */
+    justify-content: center; /* Ensures horizontal centering */
+    align-items: center; /* Ensures vertical alignment */
     width: 100%;
+    display: flex; /* Explicitly set display flex */
   }
 
   .nav__list {
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm); /* Reduce gap between nav items */
     justify-content: center;
     width: 100%;
     padding-bottom: var(--spacing-xs);
+    flex-wrap: wrap; /* Allow wrapping if needed, though we aim to fit */
   }
 
   .nav-logo {
-    height: 40px; /* Slightly smaller logo on mobile */
+    height: 32px; /* Smaller logo on mobile to save space */
+  }
+  
+  .site-title {
+    font-size: 1.1rem; /* Slightly smaller title on mobile */
+  }
+
+  .nav__link {
+    font-size: 0.9rem; /* Smaller font size for nav links */
+    padding: 4px 8px; /* Reduce padding around links */
   }
 
   /* Hero Section */

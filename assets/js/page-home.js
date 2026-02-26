@@ -25,6 +25,11 @@ window.PageHome = {
     if (!container) return;
 
     // Build Research Themes HTML
+    // Intro Text Paragraph
+    const researchIntroHTML = content.researchInterestsIntro ? `
+      <p class="research-themes__intro">${content.researchInterestsIntro}</p>
+    ` : '';
+
     const researchThemesHTML = content.researchThemes ? `
       <ul class="research-themes__list">
         ${content.researchThemes.map(theme => `
@@ -45,13 +50,9 @@ window.PageHome = {
         </p>
       </div>
 
-      <div class="research-interests-section">
-        <h3 class="section-title">Research Interests</h3>
-        <p class="intro__text">${content.researchInterestsIntro || ''}</p>
-        <div class="research-themes">
-          ${researchThemesHTML}
-        </div>
-      </div>
+      <h2 class="page-title">Research Interests</h2>
+      ${researchIntroHTML}
+      ${researchThemesHTML}
     `;
 
     // 3. Update Buttons

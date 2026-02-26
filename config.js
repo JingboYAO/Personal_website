@@ -60,19 +60,19 @@ window.CONFIG = {
       ],
       workingPapers: [
         {
+          title: "The Spill-back and Spillover Effects of US Monetary Policy: Evidence on an International Cost Channel",
+          authors: "Jingbo Yao (with Yao Amber Li, Lingfei Lu, and Shangjin Wei), Revise and Resubmit at Journal of Monetary Economics",
+          summary: "We find that an unanticipated tightening of US monetary policy tends to raise US import prices. This empirical ``spill-back\" pattern differs from the predictions of typical open-economy macro models. We also document a new empirical ``spillover\" effect: import prices of other countries also rise following an unexpected US monetary tightening. To understand the mechanism, we examine Chinese exporters and identify a borrowing cost channel—their liquidity conditions generally deteriorate after a US monetary tightening. Indeed, the output price response is greater for those firms facing higher borrowing costs or tighter liquidity conditions.",
+          presentation: "World Congress of ES, CES China, HKIMR-ECB-BOFIT Joint Conference, NBER China, CICF, CTRG, NBER East Asian, HKUST-Fudan-SMU Conference, Melbourne Annual Macro Policy Meeting, IAAE, AsianFA, AMES, International Economics Joint Conference in Shenzhen, EITI, ATW, Monash, PKU(NSD), China Agricultural University, NUFE, HKUST",
+          link: "https://www.nber.org/papers/w33811#:~:text=We%20find%20that%20an%20unanticipated,costs%20or%20tighter%20liquidity%20conditions."
+        },
+        {
           title: "LSAP Shocks and Stock Prices: The Information Effect Revisited",
           authors: "Jingbo Yao (with John Rogers, Wenbin Wu, and Juanyi Jenny Xu), submitted",
           summary: "The central bank information effect is the subject of lively debate. We present a novel finding regarding the effects of U.S. large-scale asset purchase (LSAP) shocks and offer interpretations based on an information effect that varies both over time and across firms. Specifically, positive LSAP shocks depress U.S. stock returns during periods of quantitative easing (QE) but not in other sub-periods. An LSAP easing policy signals a worsening in the Fed's economic outlook, leading to a decrease in equity investors' confidence. This ``LSAP information effect\" is more pronounced for more procyclical firms and is state-dependent, with larger effects during worse economic circumstances. The transmission of this LSAP shock information effect works primarily through the risk premium channel, with more significant effects on firms with higher risk exposure.",
           presentation: "World Congress of ES, IAAE, AsianFA, CCER Summer Institute, PKU-NUS Annual Conference, AMES(Vietnam), AMES(Singapore), WEAI, Fudan FISF, HKUST",
           award: "SBM Research Postgraduate Award- Outstanding Research Award 2023-24",
           link: "https://www.econometricsociety.org/regional-activities/conference-papers/view/282/733"
-        },
-        {
-          title: "The Spill-back and Spillover Effects of US Monetary Policy: Evidence on an International Cost Channel",
-          authors: "Jingbo Yao (with Yao Amber Li, Lingfei Lu, and Shangjin Wei), Revise and Resubmit at Journal of Monetary Economics",
-          summary: "We find that an unanticipated tightening of US monetary policy tends to raise US import prices. This empirical ``spill-back\" pattern differs from the predictions of typical open-economy macro models. We also document a new empirical ``spillover\" effect: import prices of other countries also rise following an unexpected US monetary tightening. To understand the mechanism, we examine Chinese exporters and identify a borrowing cost channel—their liquidity conditions generally deteriorate after a US monetary tightening. Indeed, the output price response is greater for those firms facing higher borrowing costs or tighter liquidity conditions.",
-          presentation: "World Congress of ES, CES China, HKIMR-ECB-BOFIT Joint Conference, NBER China, CICF, CTRG, NBER East Asian, HKUST-Fudan-SMU Conference, Melbourne Annual Macro Policy Meeting, IAAE, AsianFA, AMES, International Economics Joint Conference in Shenzhen, EITI, ATW, Monash, PKU(NSD), China Agricultural University, NUFE, HKUST",
-          link: "https://www.nber.org/papers/w33811#:~:text=We%20find%20that%20an%20unanticipated,costs%20or%20tighter%20liquidity%20conditions."
         },
         {
           title: "The International Spillover of Monetary Policy Shock: New Evidence from Nighttime Light",
